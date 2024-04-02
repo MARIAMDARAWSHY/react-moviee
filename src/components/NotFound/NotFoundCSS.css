@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.aboutPage-container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.aboutPage-text{
+    text-align: center;
+    max-width: 800px;
+    font-size: 3.5vh;
+    font-family: "Outfit" , sans-serif;
+}

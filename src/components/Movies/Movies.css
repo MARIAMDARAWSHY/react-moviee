@@ -1,0 +1,64 @@
+.notification {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 400px; 
+    color: white; 
+}
+
+.notification h2,
+.notification p {
+    margin: 10px 0;
+}
+
+.movies-text {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    position: relative;
+}
+
+.movies-text input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.movies-text ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.movies-text ul li {
+    margin-bottom: 20px;
+}
+
+.movies-text ul li img {
+    width: 150px;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+.movies-text ul li p {
+    font-size: 18px;
+    text-align: center;
+}
